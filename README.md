@@ -1,41 +1,62 @@
-🧑‍🎓 Student Details Program in C
-A menu-driven, console-based program written in C that allows users to manage student records interactively. This project demonstrates control flow, arrays, switch-case logic, and user-driven input loops—all with clean output formatting and a focus on user experience.
+# 🧑‍🎓 **Student Details Program in C**
 
-🚀 Features
-📥 Enter Multiple Student Records → Input name, roll number, class, and marks for each student → Continue entering data interactively until the user chooses to stop
+A **menu-driven, console-based program** written in **C** that allows users to manage student records interactively. This project demonstrates control flow, arrays, `switch-case` logic, and user-driven input loops—all with clean output formatting and a focus on user experience.
 
-📋 Display Student Data → View all stored student records in a clean, formatted layout
+---
 
-📊 Calculate Total & Average Marks → Automatically computes and displays total and average marks of all students
+## **🚀 Features**
 
-🔁 Menu-Driven Workflow → Loop-based interface lets users choose actions repeatedly until they exit
+📥 **Enter Multiple Student Records**  
+→ Input name, roll number, class, and marks for each student  
+→ Continue entering data interactively until the user chooses to stop
 
-🧼 Minimal & Clear Output Formatting → Easy-to-read structure with separators and labels
+📋 **Display Student Data**  
+→ View all stored student records in a clean, formatted layout
 
-📋 How It Works
-Main Menu → User selects from four options: Enter Data, Display Data, Show Marks Summary, Exit
+📊 **Calculate Total & Average Marks**  
+→ Automatically computes and displays total and average marks of all students
 
-Student Data Entry → Program asks for name, roll number, class, and marks → User decides whether to continue entering more students
+🔁 **Menu-Driven Workflow**  
+→ Loop-based interface lets users choose actions repeatedly until they exit
 
-Display Student Records → Shows all entered data with proper formatting
+🧼 **Minimal & Clear Output Formatting**  
+→ Easy-to-read structure with separators and labels
 
-Marks Summary → Calculates and displays total and average marks
+---
 
-Exit Option → Ends the program gracefully
+## **📋 How It Works**
 
-🛠️ Code Highlights
-Uses arrays to store up to 100 student records
+1. **Main Menu**  
+   → User selects from four options: Enter Data, Display Data, Show Marks Summary, Exit
 
-Employs do-while and switch-case for menu control
+2. **Student Data Entry**  
+   → Program asks for name, roll number, class, and marks  
+   → User decides whether to continue entering more students
 
-Boolean flag (continue_entry) for interactive input loop
+3. **Display Student Records**  
+   → Shows all entered data with proper formatting
 
-Clean separation of logic for input, display, and calculations
+4. **Marks Summary**  
+   → Calculates and displays total and average marks
 
-Output formatting designed for clarity and comfort
+5. **Exit Option**  
+   → Ends the program gracefully
 
-📦 Sample Output
-text
+---
+
+## **🛠️ Code Highlights**
+
+- Uses arrays to store up to 100 student records  
+- Employs `do-while` and `switch-case` for menu control  
+- Boolean flag (`continue_entry`) for interactive input loop  
+- Clean separation of logic for input, display, and calculations  
+- Output formatting designed for clarity and comfort
+
+---
+
+## **📦 Sample Output**
+
+```text
 Welcome to Student Details Program
 
 Choose an option:
@@ -52,30 +73,40 @@ Class: 10
 Marks: 87
 Do you want to enter another student? (1 for Yes / 0 for No): 1
 ...
-📁 File Structure
-Code
+```
+
+---
+
+## **📁 File Structure**
+
+```
 student_details.c   // Main source file
 README.md           // Project documentation
-✅ How to Run
-Save the code in a file named student_details.c
+```
 
-Compile using GCC or any standard C compiler:
+---
 
-bash
-gcc student_details.c -o student_details
-Run the program in your terminal:
+## **✅ How to Run**
 
-bash
-./student_details
-🧠 Author Notes
-This project is part of my hands-on learning journey in C programming, focusing on:
+1. **Save the code** in a file named `student_details.c`  
+2. **Compile using GCC** or any standard C compiler:  
+   ```bash
+   gcc student_details.c -o student_details
+   ```
+3. **Run the program** in your terminal:  
+   ```bash
+   ./student_details
+   ```
 
-Menu-driven logic and interactive workflows
+---
 
-Output formatting and user experience
+## **🧠 Author Notes**
 
-Clean, minimal code with clear structure
+This project is part of my hands-on learning journey in **C programming**, focusing on:
 
-Applying programming logic to real-world scenarios
+- Menu-driven logic and interactive workflows  
+- Output formatting and user experience  
+- Clean, minimal code with clear structure  
+- Applying programming logic to real-world scenarios
 
-Feel free to fork, modify, or suggest improvements. Let’s keep building and learning together!
+Feel free to **fork**, **modify**, or **suggest improvements**. Let’s keep building and learning together!
